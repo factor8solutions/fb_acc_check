@@ -3,7 +3,7 @@
 
 ## Please read this!
 
-The script is the late night version written in a hurry to grasp the size of the problem of fake facebook accounts appearing in the PHillipines. 
+The script is the late night version written in a hurry to grasp the size of the problem of fake facebook accounts appearing in the Phillipines. 
 
 See: [FB Post OfficeofCybercrimePH](https://www.facebook.com/OfficeofCybercrimePH/posts/1212247179115128) (links to facebook!)
 
