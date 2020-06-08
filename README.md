@@ -15,6 +15,8 @@ We are working on a solution to run this multithreaded for mass account detectio
 
 The script depends on the fact that the facebook API tells us that we cannot check an account by name if it exists. We do not think it is intended to be used the way we are using it but it works fine and we didn't had problems scanning millions of links last night.
 
+You do not need anything besides a linux computer to run it. (macOS ?!?).
+
 ## Usage
 
 Clone the repo:
