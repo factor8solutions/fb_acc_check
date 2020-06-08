@@ -11,6 +11,10 @@ The script can not detect if an account is fake or not. It simple checks if acco
 
 We are working on a solution to run this multithreaded for mass account detection. Kindergarten bailed again - need to wait until the evening...
 
+### How does it work?
+
+The script depends on the fact that the facebook API tells us that we cannot check an account by name if it exists. We do not think it is intended to be used the way we are using it but it works fine and we didn't had problems scanning millions of links last night.
+
 ## Usage
 
 Clone the repo:
@@ -42,7 +46,7 @@ Will check all accounts with the pattern `peter.pan.0` to `peter.pan.100` and `p
 
 ### What numbers to scan for?
 
-We scanned some accounts from 0-1000000 last night and had hits all over the board. 1,2,3,4,5,6 digit numbers in combination with the firstname lastname variation. SCan as broad as you can. It might take a while to check 2.000.000 links...
+We scanned some accounts from 0-1000000 last night and had hits all over the board. 1,2,3,4,5,6 digit numbers in combination with the firstname lastname variation. Scan as broad as you can. It might take a while to check 2.000.000 links...
 
 ## How to contribute
 
