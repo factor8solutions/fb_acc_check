@@ -19,7 +19,7 @@ printf "\n OUT_FILE: $OUT_FILE \n"
 echo "################################################################################"
 
 ACC_COUNTER=0
-ACC_COUNTER=$((ACC_COUNTER+1))
+#ACC_COUNTER=$((ACC_COUNTER+1))
 curl -is -X GET "https://graph.facebook.com/$1.$2" | grep -cq "Cannot query users by their username"
 if [ $? == 0 ]; then
 	ACC_COUNTER=$((ACC_COUNTER+1))
