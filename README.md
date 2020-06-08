@@ -23,7 +23,7 @@ Make the script executeable:
 
 Run the Script:
 
-- `./check_user firstname lastname lowNumber highNumber output_filename`
+`./check_user firstname lastname lowNumber highNumber output_filename`
 
 The script will check accounts with the pattern:
 
